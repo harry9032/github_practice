@@ -1,0 +1,17 @@
+git 버전 확인
+git --version
+
+프로젝트 디렉토리에 로컬 저장소 (.git) 생성
+git init
+
+git 버전 관리할 파일을 선택
+git add test.py # 스테이지에 올렸다.
+
+버전 만들기
+git commit -m "test.py를 커밋"
+
+현재 이름 및 email 보기
+git config user.name/email
+
+로그 확인
+git log
